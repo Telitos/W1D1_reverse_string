@@ -1,8 +1,5 @@
 // Create a function that reverses string
 
-// go through each character in the string, re-assign the indexes
-// in terms of other indexes
-
 function reverse(string) {
  var newString = ""
  for (var i = string.length - 1; i > -1; i --){
