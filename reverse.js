@@ -11,8 +11,9 @@ var args = process.argv.splice(2)
 
 // create a function that loops through the process.argv array
 // and calls reverse for each of them
-var reversed_list = []
+
 function list_reverse (arguments) {
+  var reversed_list = []
   for (var i = 0; i < arguments.length; i++) {
     var reversed_string = reverse(arguments[i])
     reversed_list.push(reversed_string)
